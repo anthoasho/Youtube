@@ -1,0 +1,26 @@
+{
+  "name": "Icon",
+  "version": "1.0",
+  "description": "Easily search your icon",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "open_text": {
+      "description": "Copy the link to the active pipeline",
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "MacCtrl+Shift+E"
+      }
+    }
+  },
+  "permissions": [
+   "https://*/*",
+   "http://*/*",
+   "tabs"
+ ],
+ "web_accessible_resources": ["inject.css"],
+
+  "manifest_version": 2
+}
